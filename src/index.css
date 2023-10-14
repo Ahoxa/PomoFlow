@@ -1,0 +1,14 @@
+body::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}
+
+body {
+  -ms-overflow-style: none;  /* IE10+ */
+}
+
+body {
+  background-color: #FFEDD8 !important;
+  height: 100vh;
+  margin: 0;
+}
+
