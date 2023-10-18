@@ -47,9 +47,13 @@ const Header = () => {
         <ModalContent>
           <ModalCloseButton />
           <ModalHeader>How to use PomoFlow</ModalHeader>
-          <ModalBody>
-            トマトの下にある三枚のカードをクリックすると、タイマーがスタートします。カードごとの時間や、休憩時間は変更できます。
-            ！！開発者--あとから英語と日本語切り替えを実装する。
+          <ModalBody mb={3}>
+            Click one of 3cards below to start your pomodoro session.
+            <br />
+            When the session is over, gong sound will be played.
+            <br />
+            When the break is over, meow sound will be played. you can also skip
+            the break by clicking the Skip button.
           </ModalBody>
         </ModalContent>
       </Modal>
