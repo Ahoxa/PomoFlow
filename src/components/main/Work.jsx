@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
-import useTimer from "../Helper/useTimer";
 import { VStack, Box, Button, Image } from "@chakra-ui/react";
-import Cat from "./3D/Cat";
-import ProgressBar from "./ProgressBar";
-import ArrowBackIcon from "./ArrowBackIcon";
-import BackAlert from "./BackAlert";
+
+import useTimer from "../../Helper/useTimer";
+import Cat from "../3D/Cat";
+import ProgressBar from "../ProgressBar";
+import ArrowBackIcon from "../ArrowBackIcon";
+import BackAlert from "../BackAlert";
 
 import useSound from "use-sound";
-import meow from "../sounds/meow.mp3";
-import gong from "../sounds/gong.mp3";
+import meow from "../../sounds/meow.mp3";
+import gong from "../../sounds/gong.mp3";
 
 const Work = ({
   remainingTime,

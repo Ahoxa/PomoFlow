@@ -1,9 +1,9 @@
 import React from "react";
 import { VStack, HStack, Box, Text } from "@chakra-ui/react";
-import Header from "./Header";
-import Tomato from "./3D/Tomato";
-import PomodoroCard from "./PodoroCard";
-import { cardData } from "./../data/cardData";
+import Header from "../Header";
+import Tomato from "../3D/Tomato";
+import PomodoroCard from "../PodoroCard";
+import { cardData } from "../../data/cardData";
 
 const Home = ({ handleCardClick }) => {
   return (

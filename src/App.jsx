@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Home from "./components/Home";
-import Work from "./components/Work";
-import Break from "./components/Break";
+import Home from "./components/main/Home";
+import Work from "./components/main/Work";
+import Break from "./components/main/Break";
 import { cardData } from "./data/cardData";
 import useTimer from "./Helper/useTimer";
 import { MusicProvider } from "./contexts/MusicContexts";

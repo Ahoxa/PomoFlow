@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
-import useTimer from "../Helper/useTimer";
 import { VStack, Box, Button } from "@chakra-ui/react";
-import Coffee from "./3D/Coffee";
-import ProgressBar from "./ProgressBar";
-import ArrowBackIcon from "./ArrowBackIcon";
+
+import useTimer from "../../Helper/useTimer";
+import Coffee from "../3D/Coffee";
+import ProgressBar from "../ProgressBar";
+import ArrowBackIcon from "../ArrowBackIcon";
 
 import useSound from "use-sound";
-import startWork from "../sounds/startMeow.mp3";
+import startWork from "../../sounds/startMeow.mp3";
 
 const Break = ({
   remainingTime: globalRemainingTime,
